@@ -1,0 +1,17 @@
+input{
+    display: block;
+    margin: 10px;
+}
+body{
+    background-color: rgba(8, 8, 8, 0.8);
+    display: flex;
+    justify-content: center;
+}
+label{
+    color: bisque;
+    font-size: 2rem;
+}
+form{
+    border: 1px solid wheat;
+    padding: 10px;
+}
