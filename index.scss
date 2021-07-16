@@ -1,17 +1,37 @@
 input{
     display: block;
+    height: 35px;
+    width: 450px;
     margin: 10px;
+  
+}
+input#submit{
+    width: 150px;
+    background-color:steelblue;
+    color: white;
+    border: 1px solid white;
+
 }
 body{
-    background-color: rgba(8, 8, 8, 0.8);
+    background-color:whitesmoke;
     display: flex;
     justify-content: center;
 }
 label{
-    color: bisque;
+    margin-top: 5px;
+    color: black;
     font-size: 2rem;
+    
 }
 form{
-    border: 1px solid wheat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+    width: 50%;
+    text-align: center;
+    border: 1px solid white;
     padding: 10px;
+    background-color:white;
+
 }
